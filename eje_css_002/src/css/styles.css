@@ -1,6 +1,61 @@
-/* Ejemplo basico de como hacer un css basico */
+/*
+*{
+  margin: 0;
+  padding: 0;
+  color:red;
+} */
 
-body {
-  background: #000000;
-  color: #fff;
+/*
+h2{
+  color: red;
+} */
+
+/* aplicamos el selector para todos los h */
+h1,h2,h3,h4,h5,h6{
+  color: red;
+}
+
+/* ahora quiero que solamente el h1 tenga un tamaño distintos a los demas */
+h1{
+  font-size: 50px;
+}
+
+/* ahora quiero que solamente el h2 tenga un tamaño distintos a los demas */
+h1{
+  font-size: 40px;
+}
+
+/* ahora usamos elementos descendentes para su estilos */
+a{
+  font-size: 20px;
+  color: red;
+}
+
+a[href="https://www.google.com"]{
+  color:green;
+  font-size: 30px;
+}
+
+p a {
+  font-size: 40px;
+}
+
+p span a{
+  font-size: 60px;
+  color:  #7FFF00;
+}
+
+/* creamos una clase y lo podemos usar varias veces*/
+.yellow{
+  color: #D2691E;
+}
+
+/* selector dentro de una clase */
+p .green{
+  color: green;
+}
+
+/* creamos un identificador q solo se usa una vez */
+#crear-color{
+  color: blue;
 }
