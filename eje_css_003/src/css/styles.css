@@ -1,1 +1,23 @@
-/* unidades con font-size */
+/* unidades con font-size (px,em,rem,%)*/
+body{
+  font-size: 16px;
+}
+
+/* nota con el atributo width asignamos un ancho a un elemento */
+div{
+  font-size: 20px;
+  background: #000;
+  color: #fff;
+  width: 50%;
+}
+
+/* toma como el valor de ref del div que seria un 1em = 20px */
+div p{
+  font-size: 1em;
+}
+
+/* con rem toma el valor del primer valor es decir del body */
+div a{
+  font-size: 1rem;
+}
+
