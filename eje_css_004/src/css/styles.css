@@ -1,23 +1,20 @@
-/* unidades con font-size (px,em,rem,%)*/
-body{
-  font-size: 16px;
+/* colores rgb con decimales */
+
+h1{
+  color: rgb(79,164,60);
 }
 
-/* nota con el atributo width asignamos un ancho a un elemento */
-div{
-  font-size: 20px;
-  background: #000;
-  color: #fff;
-  width: 50%;
+/* colores a traves de la trama hexadecimal */
+h2{
+  color: #356F28;
 }
 
-/* toma como el valor de ref del div que seria un 1em = 20px */
-div p{
-  font-size: 1em;
+/* colores con porcentajes decimales */
+h3{
+  color: rgb(1%,50%,70%);
 }
 
-/* con rem toma el valor del primer valor es decir del body */
-div a{
-  font-size: 1rem;
+/* colores con opacidad desde el rgba */
+h4{
+  color:rgba(134,47,126,.5);
 }
-
