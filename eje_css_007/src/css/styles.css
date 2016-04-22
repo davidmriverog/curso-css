@@ -1,0 +1,14 @@
+/* ejemplo basico como asignar una img en css */
+div{
+  background: url(../../files/images/reco.png);
+  height: 300px;
+  background-repeat: no-repeat;
+}
+
+body{
+  background: url(../../files/images/en-el-trabajo.jpg);
+  background-position: 500px 200px;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  color: #fff;
+}
