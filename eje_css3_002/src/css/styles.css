@@ -1,1 +1,44 @@
+/* definir el tipo de selector segun su elemento. */
 
+/* selector universal */
+
+/* ejemplo
+* {
+  margin: 0;
+  padding: 0;
+  color: #db1010;
+}
+*/
+
+/* selector de tipo o elemento */
+body{
+  background-color: #91667b;
+  padding: 30px;
+}
+
+h1{
+  color: rgb(105, 4, 218);
+  font-size: 40px;
+}
+
+h2{
+  color: rgb(235, 26, 26);
+  font-size: 30px;
+}
+
+p{
+  color:rgb(241, 202, 34);
+  background: rgb(78, 180, 57);
+  padding: 15px;
+}
+
+/* selectores descendientes */
+h1 span{
+  font-weight: bold;
+  color: #ccc;
+}
+
+p span{
+  font-weight: bold;
+  color: rgb(223, 132, 46);
+}
