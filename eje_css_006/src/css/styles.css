@@ -1,0 +1,11 @@
+/* ejemplo basico como asignar una img en css */
+
+body{
+  background: url(../../files/images/reco.png);
+  /* no-repeat, repeat-x, repeat-y */
+  background-repeat: no-repeat;
+
+  /* fondo arreglado (fixed, scroll)*/
+  background-attachment: scroll;
+  color: #fff;
+} 
