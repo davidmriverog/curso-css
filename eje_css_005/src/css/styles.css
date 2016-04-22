@@ -1,10 +1,12 @@
 div{
-  /* anchura */
-  width: 50%;
-  
+  width: 300px;
   background: #FBBE15;
   /* margen externo (arriba y abajo, lados)*/
   margin: 20px 50px;
   /* margen interno  */
   padding: 30px;
+  /* uso de border solid(linea) o dotted(puntos) */
+  border: 10px solid #000;
+  /* mostrar bloques en linea */
+  display: inline-block;
 }
