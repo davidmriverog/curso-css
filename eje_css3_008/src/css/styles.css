@@ -1,0 +1,44 @@
+body{
+  background: rgb(27, 247, 201);
+  margin: 0;
+  padding: 0;
+}
+.contenedor{
+  background: rgb(107, 136, 59);
+  margin: 10px auto;
+  padding: 10px;
+  width: 80%;
+}
+h1{
+  text-align: center;
+}
+li{
+  border: 1px solid #000;
+  list-style-type: none;
+  margin: 2px 50px 2px 0;
+  padding: 5px 10px;
+}
+/*
+  estiles ntn-child selecciona el valor desde arriba hacia abajo
+     (numeric 1 ..n , even(num pares),odd(num impares))
+*/
+
+ul li:nth-child(odd){
+  background: red;
+  color: white;
+}
+
+/* aplicamos operaciones matematicas */
+ul li:nth-child(3n + 3){
+  background: red;
+  color: white;
+}
+/*
+  estilo ntn-last-child funciona a igual que el anterior
+  pero desde abajo hacia arriba xD
+*/
+
+ul li:nth-last-child(3){
+   background: red;
+   color: white;
+} 
