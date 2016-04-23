@@ -1,0 +1,27 @@
+body{
+  background-color: rgba(65, 189, 210, 0.5);
+  padding: 0;
+  margin: 0;
+}
+#contenido{
+  width: 80%;
+  margin: 20px auto;
+  background: #fff;
+  padding: 20px;
+}
+/* selector de atributo basico */
+[rel]{
+  background: rgb(215, 96, 66);
+  color: rgb(63, 75, 66);
+  display: block;
+  margin: 2px;
+}
+
+/* selector de atributo con su valor exacto */
+a[rel="externo"]{
+  background: rgb(5, 219, 34);
+  color: rgb(8, 17, 119);
+  display: block;
+  margin: 2px;
+  border: 1px solid #000;
+}
