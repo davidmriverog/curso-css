@@ -1,0 +1,35 @@
+/* selectores basicos (>), (+), (~)*/
+body{
+  background-color: rgba(249, 184, 77, 0.68);
+  margin: 0;
+  padding: 0;
+}
+#contenido{
+  margin: 10px;
+  width: 550px;
+}
+/*
+  selector (>) - selector de hijos
+    se usa para seleccionar un elemento especifico que es hijo
+    directo de otro elemento html.
+*/
+div > a {
+  color: rgb(119, 246, 81);
+  font-weight: bold;
+}
+p > span{
+  color: rgb(240, 8, 8);
+}
+/* selector (+) adyacente o hermano adyacente */
+h1 + p {
+  color: #ccc;
+  font-weight: bold;
+}
+p + p{
+  text-decoration: underline;
+}
+/* selector (~) general de hermano */
+h2 ~ p {
+  font-size: 20px;
+  font-weight: bold;
+}
