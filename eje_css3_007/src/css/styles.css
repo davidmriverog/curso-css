@@ -1,0 +1,67 @@
+body{
+  background: rgb(244, 174, 125);
+  margin: 0;
+  padding: 0;
+}
+.contenedor{
+  background-color: #fff;
+  margin: 10px auto;
+  padding: 10px;
+  width: 80%;
+}
+h1{
+  text-align: center;
+}
+nav{
+  background-color: rgb(165, 62, 247);
+}
+nav li{
+  border-right: 1px solid rgb(186, 215, 41);
+  display: inline-block;
+  padding: 15px;
+}
+nav li a {
+  color: rgb(62, 42, 186);
+  text-decoration: none;
+}
+nav li a:hover{
+  color: #fff;
+}
+.items li{
+  border-bottom: 1px solid #aaaaaa;
+  margin: 10px;
+}
+
+/* speudo clase first child  modifica el 1er elemento hijo */
+nav li:first-child{
+  background: rgb(203, 22, 16);
+  color: #ccc;
+}
+article p:first-child{
+  background: rgb(203, 22, 16);
+  color: #ccc;
+}
+
+/* speudo clase list child modifica el ultimo element hijo */
+nav li:last-child{
+  border-right: none;
+}
+article p:last-child{
+  background: rgb(49, 212, 70);
+  color: rgb(59, 131, 236);
+}
+ul li:last-child{
+  background: blue;
+  color: white;
+  padding: 5px;
+}
+
+/*
+  speudo clase only child que selecciona el unico elemento
+  otro elemento
+*/
+span:only-child{
+  color: green;
+  font-weight: bold;
+  text-decoration: underline;;
+}
