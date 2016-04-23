@@ -16,7 +16,6 @@ body{
   display: block;
   margin: 2px;
 }
-
 /* selector de atributo con su valor exacto */
 a[rel="externo"]{
   background: rgb(5, 219, 34);
@@ -24,4 +23,52 @@ a[rel="externo"]{
   display: block;
   margin: 2px;
   border: 1px solid #000;
+}
+/*
+  selector de atributo de una lista de valores separados
+  por un espacio
+*/
+[title~="titulo"]{
+  background: rgb(170, 112, 52);
+  border: 1px solid rgb(63, 1, 119);
+  color:#fff;
+}
+/*
+  selector de atributo de una lista de valores separados por
+  un guion.
+*/
+[title|="titulo"]{
+  background: rgba(216, 237, 46, 0.53);
+  border: 1px solid rgb(111, 50, 90);
+  color:#fff;
+}
+/*
+  selector de atributos comienza con. (CSS3)
+*/
+a[href^="https://www.facebook.com"]{
+  background: rgb(147, 249, 212);
+  border: 1px solid rgb(111, 50, 90);
+  color:#fff;
+}
+a[href^="https://www.youtube.com"]{
+  background: url(../../files/images/input-spinner.gif) no-repeat;
+  padding-left: 20px;
+  display: block;
+}
+/*
+  selector de atributo termina con. (CSS3)
+*/
+a[href$=".rar"]{
+  background: url(../../files/images/loading-spinner-grey.gif) no-repeat;
+  padding-left: 20px;
+  display: block;
+  color: #000;
+}
+/*
+  selector de atributo contiene. (CSS3)
+*/
+p[title*="parrafo"]{
+  background: rgb(238, 15, 15);
+  padding-left: 20px;
+  display: block;
 }
