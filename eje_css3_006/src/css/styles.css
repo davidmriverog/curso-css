@@ -1,0 +1,22 @@
+/* Introduccion a la pseudo clases CSS1 */
+a:link{
+  color: #1b8e11;
+  text-decoration: none;
+}
+a:visited{
+  color: gray;
+}
+a:hover, p:hover{
+  background: rgb(219, 246, 11);
+  color: #fff;
+  padding: 5px;
+}
+a:active{
+  background: rgb(54, 153, 55);
+  color: rgb(214, 232, 10);
+}
+input:focus,textarea:focus{
+  background: #000;
+  color: #fff;
+  height: 50px;
+}
