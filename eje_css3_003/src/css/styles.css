@@ -1,0 +1,43 @@
+body{
+  background: #ecf3f5;
+  padding: 0;
+  margin: 0;
+}
+/*
+  los selectores con id se usan para dar
+  estilo a un elemento unico en el css
+*/
+#contenido{
+  margin: 0 auto;
+  width: 900px;
+}
+#lista{
+  color:rgb(51, 176, 18);
+  list-style-type: none;
+}
+/*
+  las clases puedes dirigirse a mas
+  elementos css en el html de nuestra pag.
+*/
+.cabecera{
+  background-color: rgb(7, 200, 174);
+  padding: 20px;
+}
+.pie{
+  background-color: rgb(83, 19, 244);
+  padding: 20px;
+}
+.parrafo{
+  color: rgb(85, 32, 72);
+  margin: 2px;
+}
+
+.cabecera, .pie{
+  color: #fff;
+  text-align: center;
+}
+
+/* combinado de selectores de clases avanzado */
+#contenido header.cabecera h1 span{
+  color: rgb(215, 231, 31);
+}
