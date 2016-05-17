@@ -1,11 +1,23 @@
-body{
-  background: rgb(27, 247, 201);
-  margin: 0;
-  padding: 0;
+/*
+el uso del ntn-of-type selecciona el quinto elemento, se su categoria asi
+tenga otros elementos intermedios ya como lo muestra en el index.html.
+ */
+section li:nth-of-type(5){
+  background: rgb(174, 224, 96);
+  color:rgb(255, 255, 255);
+  font-size: 2em;
 }
-.contenedor{
-  background: rgb(107, 136, 59);
-  margin: 10px auto;
-  padding: 10px;
-  width: 80%;
+
+/*
+funciona de igual manera pero por orden contrario.
+ */
+section div:nth-last-of-type(3){
+  background: rgb(141, 121, 187);
+  color: rgb(152, 247, 14);
+  font-size: 2em;
+  font-weight: bold;
+}
+p span:only-of-type{
+  color: red;
+  font-size: 2em;
 }
